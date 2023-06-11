@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.pop-up{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   background-color: rgba(175, 15, 0, 0.596);
+   border-radius: 15px;
+   width: fit-content;
+   padding: 20px 50px;
+}
+
+.pop-up p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.fa-triangle-exclamation {
+    color: rgb(227, 227, 227);
+    padding-right: 30px;
+    font-size:70px;
+    
+}

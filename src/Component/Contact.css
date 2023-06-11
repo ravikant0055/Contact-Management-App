@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ h2 {
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;;
+    align-items: center;
+    color: white;
+ }
+
+ .myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: rgba(63, 63, 63, 0.277);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 20px ;
+
+ }
+
+ .form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;;
+    padding: 25px; 
+ }
+
+ label{
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+ }
+
+ .save-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: 5px 10px;
+
+    
+
+ }
